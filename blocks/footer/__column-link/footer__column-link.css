@@ -6,7 +6,12 @@
   font-weight: normal;
   display: block;
 }
+
 .footer__column-link:hover {
   opacity: 60%;
   transition: opacity 0.25s;
+}
+
+.footer__column-link:last-child {
+  margin-bottom: 16px;
 }
